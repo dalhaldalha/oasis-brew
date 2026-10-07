@@ -30,10 +30,10 @@ const T = {
     menuSub: 'Handcrafted cups harmonizing Middle Eastern warmth with modern espresso craft.',
     filterAll: 'All', filterCoffee: 'Craft Coffee', filterSweets: 'Pastries & Sweets',
     items: [
-      { cat: 'coffee', badge: 'Signature', title: 'Royal Cardamom Spiced...', desc: 'Double shot of rich espresso infused with freshly crushed green Guatemalan cardamom, velvety steamed oat milk, and', price: '25 ﷼' },
-      { cat: 'coffee', badge: 'Single Origin', title: 'Saffron Cloud Chemex...', desc: 'Single-origin Yemeni Mokha Matari slow-brewed through filtered Chemex, gently kissed with rare Persian saffron threads...', price: '32 ﷼' },
-      { cat: 'pastry', badge: "Chef's Special", title: 'Orange Blossom & ...', desc: 'Delicate almond sponge cake steeped in fresh Lebanese orange blossom water syrup, layered with ground roasted...', price: '27 ﷼' },
-      { cat: 'coffee', badge: 'Popular', title: 'Medjool Date Caramel...', desc: '18-hour cold brew steeped with roasted chicory, crowned with luscious sweet date caramel cold foam and smoked salt...', price: '26 ﷼' },
+      { cat: 'coffee', badge: 'Signature', title: 'Royal Cardamom Spiced...', desc: 'Double shot of rich espresso infused with freshly crushed green Guatemalan cardamom, velvety steamed oat milk, and', price: '25 ﷼', image: 'https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=800&q=80' },
+      { cat: 'coffee', badge: 'Single Origin', title: 'Saffron Cloud Chemex...', desc: 'Single-origin Yemeni Mokha Matari slow-brewed through filtered Chemex, gently kissed with rare Persian saffron threads...', price: '32 ﷼', image: 'https://images.unsplash.com/photo-1517701550927-30cf4ba1dba5?auto=format&fit=crop&w=800&q=80' },
+      { cat: 'pastry', badge: "Chef's Special", title: 'Orange Blossom & ...', desc: 'Delicate almond sponge cake steeped in fresh Lebanese orange blossom water syrup, layered with ground roasted...', price: '27 ﷼', image: 'https://images.unsplash.com/photo-1551024601-bec78aea704b?auto=format&fit=crop&w=800&q=80' },
+      { cat: 'coffee', badge: 'Popular', title: 'Medjool Date Caramel...', desc: '18-hour cold brew steeped with roasted chicory, crowned with luscious sweet date caramel cold foam and smoked salt...', price: '26 ﷼', image: 'https://images.unsplash.com/photo-1517701604599-bb29b565090c?auto=format&fit=crop&w=800&q=80' },
     ],
     addBtn: 'Add to Order',
 
@@ -85,10 +85,10 @@ const T = {
     menuSub: 'أكواب مصنوعة يدوياً تمزج بين الدفء الشرقي وحرفية الإسبريسو.',
     filterAll: 'الكل', filterCoffee: 'قهوة مختصة', filterSweets: 'حلويات ومعجنات',
     items: [
-      { cat: 'coffee', badge: 'مميز', title: 'لاتيه الهيل الملكي...', desc: 'إسبريسو ناعم ممزوج مع الهيل الطازج، مع حليب مبخر ورشة قرفة.', price: '25 ﷼' },
-      { cat: 'coffee', badge: 'أصل واحد', title: 'كيمكس سحابة الزعفران...', desc: 'تقطير يدوي مع حبوب إثيوبية يرغاتشيف، مع لمسة من خيوط الزعفران الذهبية.', price: '32 ﷼' },
-      { cat: 'pastry', badge: 'خاص الشيف', title: 'كيكة ماء الزهر و...', desc: 'كيكة إسفنجية بماء الزهر مع كريمة الفستق وبتلات الورد.', price: '27 ﷼' },
-      { cat: 'coffee', badge: 'الأكثر طلباً', title: 'تمر كراميل ماكياتو...', desc: 'إسبريسو غني مع شراب كراميل التمر المصنوع منزلياً وفن الرغوة.', price: '27 ﷼' },
+      { cat: 'coffee', badge: 'مميز', title: 'لاتيه الهيل الملكي...', desc: 'إسبريسو ناعم ممزوج مع الهيل الطازج، مع حليب مبخر ورشة قرفة.', price: '25 ﷼', image: 'https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=800&q=80' },
+      { cat: 'coffee', badge: 'أصل واحد', title: 'كيمكس سحابة الزعفران...', desc: 'تقطير يدوي مع حبوب إثيوبية يرغاتشيف، مع لمسة من خيوط الزعفران الذهبية.', price: '32 ﷼', image: 'https://images.unsplash.com/photo-1517701550927-30cf4ba1dba5?auto=format&fit=crop&w=800&q=80' },
+      { cat: 'pastry', badge: 'خاص الشيف', title: 'كيكة ماء الزهر و...', desc: 'كيكة إسفنجية بماء الزهر مع كريمة الفستق وبتلات الورد.', price: '27 ﷼', image: 'https://images.unsplash.com/photo-1551024601-bec78aea704b?auto=format&fit=crop&w=800&q=80' },
+      { cat: 'coffee', badge: 'الأكثر طلباً', title: 'تمر كراميل ماكياتو...', desc: 'إسبريسو غني مع شراب كراميل التمر المصنوع منزلياً وفن الرغوة.', price: '27 ﷼', image: 'https://images.unsplash.com/photo-1517701604599-bb29b565090c?auto=format&fit=crop&w=800&q=80' },
     ],
     addBtn: 'أضف للطلب',
 
@@ -216,7 +216,7 @@ export default function App() {
           </div>
 
           <div className="hero__image-wrap">
-            <div className="hero__image placeholder" />
+            <img className="hero__image" src="https://images.unsplash.com/photo-1497935586351-b67a49e012bf?auto=format&fit=crop&w=1200&q=80" alt="Specialty Coffee" style={{ objectFit: 'cover' }} />
             <div className="hero__open-badge">
               <span className="dot dot--green" />
               {t.openBadge}
@@ -251,7 +251,8 @@ export default function App() {
           <div className="menu__grid">
             {filteredItems.map((item,i) => (
               <div key={`${filter}-${i}`} className="menu-card">
-                <div className="menu-card__image placeholder">
+                <div className="menu-card__image">
+                  <img src={item.image} alt={item.title} style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
                   <span className="menu-card__badge">{item.badge}</span>
                 </div>
                 <div className="menu-card__body">
@@ -272,7 +273,7 @@ export default function App() {
       <section id="about" className="about">
         <div className="container">
           <div className="about__image-wrap">
-            <div className="about__image placeholder" />
+            <img className="about__image" src="https://images.unsplash.com/photo-1511920170033-f8396924c348?auto=format&fit=crop&w=1200&q=80" alt="Coffee Heritage" style={{ objectFit: 'cover' }} />
             <div className="about__quote-card">
               <div className="about__quote-icon">❝</div>
               <p className="about__quote-text">{t.quote}</p>
